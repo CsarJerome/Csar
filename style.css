@@ -1,0 +1,262 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url('AYOS MUKHA.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #f408a9;
+    border: 2px solid ;
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+  }
+.button > p {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.button:hover{
+  background-color: rgb(7, 3, 67);
+  color: rgb(255, 255, 255);
+}
+
+
+
+  .button2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid ;
+    background-color: #fbe69a;
+    position: absolute;
+    bottom: 120px;
+    right: 35px;
+  }
+  .button2 > p {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .button2:hover{
+    background-color: rgb(7, 3, 67);
+    color: rgb(255, 255, 255);
+  }
+
+
+
+
+  .button3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid ;
+    background-color: #fd06e0;
+    position: absolute;
+    bottom: 120px;
+    left: 650px;
+  }
+
+
+
+  .button3 > p {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .button3:hover{
+    background-color: rgb(7, 3, 67);
+    color: rgb(255, 255, 255);
+  }
+
+  .button4
+  {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid ;
+    background-color: #fd06e0;
+    position: absolute;
+    bottom: 50px;
+    left: 60px;
+  }
+  .button4 > p {
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  .button4:hover
+  {
+    background-color: rgb(7, 3, 67);
+    color: rgb(255, 255, 255);
+  }
+  
+
+
+
+  .para
+  {
+  font-size: 25px;
+  color: white;
+  font-family: 'Changa', sans-serif;
+  
+  }
+
+  .vision {
+    font-size: 25px;
+    color: white;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+  }
+  
+  .image{
+    height: 120px;
+    width: 1000px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    border: 10px solid black;
+  }
+  .image1
+  {
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    border: 10px solid yellow;
+  }
+  
+  .image2{
+    height: 220px;
+    width: 300px;
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    border: 10px solid green;
+  }
+  .image3{
+    height: 450px;
+    width: 320px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    clip-path: ellipse();
+    
+  }
+  
+.pencil{
+  height: 150px;
+  width: 270px;
+  position: absolute;
+  bottom: 190px;
+    left: 50px;
+
+}
+.journal{
+  height: 150px;
+  width: 270px;
+  position: absolute;
+  bottom: 190px;
+    left: 630px;
+}
+.mission{
+  height: 150px;
+  width: 270px;
+  position: absolute;
+  bottom: 190px;
+  right: 5px;
+}
+
+
+header 
+{ 
+  width: 100%;  
+  height: 5%;
+  padding-top: 20px;
+  background-color: #f408a9;
+}
+
+header .content 
+{ 
+  width: 1000px; 
+  margin: auto; 
+}
+header .content p 
+{ 
+  font-size: 25px; 
+  color: rgb(17, 0, 250); 
+  margin-top: 0px;
+  margin-left: 5px;
+  text-align: center;  
+  font-family: 'Bebas Neue', cursive;
+}
+
+.choices
+{
+font-family: 'Bebas Neue', cursive;
+text-align: center;
+padding-top: 150px;
+color: rgb(245, 237, 6);
+font-size: 40px;
+animation: text 3s 1;
+}
+
+.slideleft
+{
+  animation: slideleft 1s linear forwards;
+}
+@keyframes slideleft{
+  0% {
+  transform: translate(100px);
+  opacity: 0; 
+}
+100%{
+  transform: translate(0px);
+  opacity: 1;
+}
+}
+
+.intro{
+  text-align: center;
+  padding-top: 20px;
+  color: rgb(70, 2, 49);
+  font-size: 20px;
+  font-family: 'Permanent Marker';
+}
+
+.Twitter{
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
+
+.Facebook{
+  height: 45px;
+  width: 60px;
+  position: absolute;
+  top: 5px;
+  right: 90px;
+}
+.table{
+width: 800px;
+margin: auto;
+table-layout: fixed;
+left: 20px;
+}
+.table,td{
+  border: 5px  solid black;
+  border-collapse: separate;
+  padding: 12px;
+  background-color: green;
+  margin-left: 20px;
+  
+}
